@@ -5,8 +5,8 @@ pipeline {
     }
 
     environment {
-     PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-           JAVA_HOME = 'C:\\Users\\xdd\\.jdks\\ms-17.0.16'
+    PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        JAVA_HOME = 'JDK 17'
         SONARQUBE_SERVER = 'SonarQubeServer'
         SONAR_TOKEN = 'Sonar_Token'
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
