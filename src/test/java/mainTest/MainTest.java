@@ -1,9 +1,9 @@
 package mainTest;
 
-import static main.Main.addMe;
-import static main.Main.subtractMe;
-import static main.Main.multiplyValues;
-import static main.Main.divideValues;
+import static main.SimpleCalculatorLogic.addMe;
+import static main.SimpleCalculatorLogic.subtractMe;
+import static main.SimpleCalculatorLogic.multiplyValues;
+import static main.SimpleCalculatorLogic.divideValues;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
