@@ -1,4 +1,4 @@
-package mainTest;
+package maintest;
 
 import static main.SimpleCalculatorLogic.addMe;
 import static main.SimpleCalculatorLogic.subtractMe;
