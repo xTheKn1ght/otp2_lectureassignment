@@ -3,7 +3,10 @@ package main;
 import java.util.logging.Logger;
 
 public class SimpleCalculatorLogic {
-    static final Logger logger = Logger.getLogger(Main.class.getName());
+    private SimpleCalculatorLogic() {
+        throw new IllegalStateException("Utility class");
+    }
+    static final Logger logger = Logger.getLogger(SimpleCalculatorLogic.class.getName());
     public static int addMe(int a, int b) {
         return a + b;
     }
